@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 from pathlib import Path
 
-from main import resize_image, grayify, pixels_to_ascii, ASCII_CHARS, fixed_width
+from ascii_pic import resize_image, grayify, pixels_to_ascii, ASCII_CHARS, fixed_width
 
 def frame_to_ascii(frame, max_width=fixed_width):
     image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
