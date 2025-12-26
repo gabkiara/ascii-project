@@ -5,8 +5,8 @@ from pathlib import Path
 
 from PIL import Image
 
-ASCII_CHARS = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,`'. "
-fixed_width = 200
+ASCII_CHARS = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft()1[]?-_+~<>i!lI;:,`'. "
+fixed_width = 50
 
 def pick_image(folder: Path) -> Path:
     exts = ['.png', '.jpg', '.jpeg', '.bmp', '.gif']
